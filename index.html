@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta Clima Perú</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Consulta del Clima en Perú</h1>
+    <p>Selecciona una ciudad para ver el estado del tiempo actual.</p>
+  </header>
+
+  <main>
+    <section class="buscador">
+      <select id="selectorCiudad">
+        <option value="lima">Lima</option>
+        <option value="cusco">Cusco</option>
+        <option value="arequipa">Arequipa</option>
+        <option value="trujillo">Trujillo</option>
+        <option value="piura">Piura</option>
+        <option value="iquitos">Iquitos</option>
+        <option value="puno">Puno</option>
+        <option value="huancayo">Huancayo</option>
+      </select>
+
+      <button id="btnConsultar">Ver clima</button>
+    </section>
+
+    <p id="mensajeError" class="error"></p>
+
+    <section id="resultado"></section>
+  </main>
+
+  <footer>
+    <p>Gomero Cristóbal — Todos los derechos reservados</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
